@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Personality Test</title>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Playfair+Display&family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="./vendor/Bootstrap/bootstrap-grid.min.css">
+	<link rel="stylesheet" href="./css/main.css">
+</head>
+<body>
+<nav class="navigation">
+	<div class="logo">
+		<a href="#" class="logo-link">
+			<img src="./img/logoipsum-253.svg" alt="logo" class="logo-img">
+		</a>
+	</div>
+	<div class="navbar-nav">
+		<ul>
+			<li>
+				<a href="#/">Landing page</a>
+			</li>
+		</ul>
+	</div>
+</nav>
+<div class="main">
+	<div class="container">
+		<header class="header text-center">
+			<h1 class="header-title">Personality Test</h1>
+			<div class="header-subtitle">
+				Are you an introvert or an extrovert?
+			</div>
+		</header>
+		<div class="thumbnail-image">
+			<img src="./img/matus-kovacovsky-eIvLuyDjCQI-unsplash.jpg" alt="thumbnail image" class="image-responsive image-borders-radius">
+		</div>
+		<div class="row">
+			<div class="col-md-8">
+				<div class="questions-box">
+					<div class="step step-start active">
+						<div class="question-box--header">
+							<h3 class="question">Are you an introvert or an extrovert?
+							</h3>
+							<p>
+								Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem at, dolores voluptate consequatur suscipit, minima possimus blanditiis tenetur, velit veniam nemo nobis? Cupiditate similique ipsa dolorum tempora magni, suscipit hic!
+							</p>
+						</div>
+						<div class="question-box--footer">
+							<div class="bottom-actions">
+								<button class="start-questions" id="btn_start">Start</button>
+							</div>
+						</div>
+					</div>
+					<div class="step step-questions">
+						<div class="question-box--header">
+							<div class="page-number">
+								Question <span class="current">1</span> / <span class="total"></span>
+							</div>
+							
+						</div>
+						<div class="question-box--body" id="question_handler">
+							
+						</div>
+						<div class="question-box--footer">
+							<div class="bottom-actions">
+								<button class="previews-question"  id="btn_previews" disabled>Previous</button>
+								<button class="next-question inactive"  id="btn_next" disabled>Next</button>
+								<button class="finish-question"  id="btn_finish" disabled>Finish</button>
+							</div>
+						</div>
+						<span class="required-label">All questions are required*
+						</span>
+					</div>
+
+					<div class="step step-finish">
+						<div class="question-box--header">
+							<h3 class="title">Don't worry, this answer is just a test :)
+							</h3>
+							<p id="quiz_result_answer" class="quiz-result-answer"></p>
+							<p>Your scores: <span class="scores" id="total_scores"></span></p>
+							<div id="show_result" class="show-result"></div>
+						</div>
+						<div class="question-box--footer">
+							<div class="bottom-actions">
+								<button class="retake-questions" id="btn_retake">Retake</button>
+								<button class="show-questions" id="btn_show_results">Show my answers</button>
+
+							</div>
+						</div>
+					</div>
+				</div>	
+			</div>
+			<div class="col-md-4">
+				<div class="sidebar-posts">
+					<h3 class="sidebar-posts--title">Recent posts
+					</h3>
+					<div class="articles-list">
+						<article class="sidebar-article">
+						
+							<a href="#/" class="thumbnail-img">
+								<img src="https://picsum.photos/100?random=2" alt="">
+							</a>
+							
+							<div class="content">
+								<span class="tag">Technology</span>
+								<h3 class="post-title">
+									<a href="#/">
+										Lorem ipsum dolor sit amet consectetur 
+									</a>
+								</h3>
+							</div>
+							
+						</article>
+						<article class="sidebar-article">
+						
+							<a href="#/" class="thumbnail-img">
+								<img src="https://picsum.photos/100?random=3" alt="">
+							</a>
+							
+							<div class="content">
+								<span class="tag">Technology</span>
+								<h3 class="post-title">
+									<a href="#/">
+										Lorem ipsum dolor sit amet consectetur 
+									</a>
+								</h3>
+							</div>
+							
+						</article>
+						<article class="sidebar-article">
+						
+							<a href="#/" class="thumbnail-img">
+								<img src="https://picsum.photos/100?random=1" alt="">
+							</a>
+							
+							<div class="content">
+								<span class="tag">Technology</span>
+								<h3 class="post-title">
+									<a href="#/">
+										Lorem ipsum dolor sit amet consectetur 
+									</a>
+								</h3>
+							</div>
+							
+						</article>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<footer class="footer">
+	<p>	&#169; <span id="current_year">2022</span> Renato Hoxha</p>
+</footer>
+<script src="./vendor/jQuery/jquery.min.js"></script>
+<script src="./js/app.js"></script>
+</body>
+</html>

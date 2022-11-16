@@ -1,0 +1,113 @@
+[
+    {
+        "results": [
+            {
+                "text" : "You are introvert",
+                "min_points" : "0",
+                "max_points" : "7"
+            },
+            {
+                "text" : "You are 50/50",
+                "min_points" : "8",
+                "max_points" : "8"
+            },
+            {
+                "text" : "You are extrovert",
+                "min_points" : "9",
+                "max_points" : "16"
+            }
+        ]
+    },
+    {
+        "questions":[
+            {
+                "question" : "You’re really busy at work and a colleague is telling you their life story and personal woes. You:",
+                "answers" : [
+                    {
+                        "option": "Don’t dare to interrupt them",
+                        "score" : "1"
+                    },
+                    {
+                        "option": "Think it’s more important to give them some of your time; work can wait",
+                        "score" : "2"
+                    },
+                    {
+                        "option": "Listen, but with only with half an ear",
+                        "score" : "3"
+                    },
+                    {
+                        "option": "Interrupt and explain that you are really busy at the moment",
+                        "score" : "4"
+                    }
+                ],
+                "requreid" : true
+            },
+            {
+                "question" : "You are taking part in a guided tour of a museum. You:",
+                "answers" : [
+                    {
+                        "option": "Are a bit too far towards the back so don’t really hear what the guide is saying",
+                        "score" : "1"
+                    },
+                    {
+                        "option": "Follow the group without question",
+                        "score" : "2"
+                    },
+                    {
+                        "option": "Make sure that everyone is able to hear properly",
+                        "score" : "3"
+                    },
+                    {
+                        "option": "Are right up the front, adding your own comments in a loud voice",
+                        "score" : "4"
+                    }
+                ],
+                "requreid" : true
+            },
+            {
+                "question" : "You crack a joke at work, but nobody seems to have noticed. You:",
+                "answers" : [
+                    {
+                        "option": "Think it’s for the best — it was a lame joke anyway",
+                        "score" : "1"
+                    },
+                    {
+                        "option": "Wait to share it with your friends after work",
+                        "score" : "2"
+                    },
+                    {
+                        "option": "Try again a bit later with one of your colleagues",
+                        "score" : "3"
+                    },
+                    {
+                        "option": "Keep telling it until they pay attention",
+                        "score" : "4"
+                    }
+                ],
+                "requreid" : true
+            },
+            {
+                "question" : "During dinner parties at your home, you have a hard time with people who:",
+                "answers" : [
+                    {
+                        "option": "Ask you to tell a story in front of everyone else",
+                        "score" : "1"
+                    },
+                    {
+                        "option": "Talk privately between themselves",
+                        "score" : "2"
+                    },
+                    {
+                        "option": "Hang around you all evening",
+                        "score" : "3"
+                    },
+                    {
+                        "option": "Always drag the conversation back to themselves",
+                        "score" : "4"
+                    }
+                ],
+                "requreid" : true
+            }
+        ]
+    }
+]
